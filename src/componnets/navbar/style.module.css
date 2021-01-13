@@ -1,0 +1,23 @@
+.title {
+    display: block;
+    color: #222;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.title:hover {
+    color: #4a00d8
+}
+.title2 {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+   
+    font-weight: bold;
+}
+
+.title2:hover {
+    color: black
+}

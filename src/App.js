@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import Contact from './componnets/contact';
+import Navbar from './componnets/navbar';
+import Index from './componnets/index';
+import About from './componnets/about';
+import Begin from './componnets/begin/begin';
+import Signin from './componnets/signin/signin';
+import Login from './componnets/login/login';
+import Coder from './componnets/forcoders/index';
+import Companie from './componnets/forcompanies/index';
+import Freelancer from './componnets/forfrelancers/index';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+
+
+import { Component } from 'react';
+import {BrowserRouter ,Route} from 'react-router-dom';
+
+
+class App extends Component {
+  render (){
+    return (
+      <BrowserRouter>
+        <Navbar />
+        <Route exact path='/' component= {Index} />
+        <Route path='/contact' component= {Contact}/>
+        <Route path='/about' component= {About}/>
+        <Route path='/begin' component= {Begin}/>
+        <Route path='/signin' component= {Signin}/>
+        <Route path='/login' component= {Login}/>
+        <Route path='/coder' component= {Coder}/>
+        <Route path='/companie' component= {Companie}/>
+        <Route path='/freelancer' component= {Freelancer}/>
+
+        
+        
+
+      </BrowserRouter>
+    );
+  }
+
+  }
+
 
 export default App;

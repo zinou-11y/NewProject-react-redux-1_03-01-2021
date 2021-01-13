@@ -1,0 +1,117 @@
+{
+    "works" :[
+        { 
+        "id": 1,
+        "icon_name" : " ",
+        "title" : "moblie ux",
+        "body": " lorem ipsum ..."
+
+    },{  
+        "id": 2,
+        "icon_name" : " ",
+        "title" : "moblie ux",
+        "body": " lorem ipsum ..."
+
+    },{
+        "id": 3,
+        "icon_name" : " ",
+        "title" : "moblie ux",
+        "body": " lorem ipsum ..."
+    }
+
+        
+    ] ,
+    "portfolio" : [
+        {
+            "id": 1,
+            "image" : " ",
+            
+        },
+        {
+            "id": 2,
+            "image" : " ",
+            
+        },  
+        {
+            "id": 3,
+            "image" : " ",
+            
+        },
+        ,  
+        {
+            "id": 4,
+            "image" : " ",
+            
+        },  
+        {
+        "id": 5,
+        "image" : " ",
+        
+    },  
+    {
+        "id": 6,
+        "image" : " ",
+        
+    },  
+    {
+        "id": 7,
+        "image" : " ",
+            
+    },  
+    {
+        "id": 8,
+        "image" : " ",
+        
+    }
+    ], 
+    "socialmeida" : [
+        {
+            "id" : 1,
+            "icon" :"",
+            "title":"",
+            "body":" lorem ipsum ..." 
+        },
+        {
+            "id" : 2,
+            "icon" :"",
+            "title":"",
+            "body":" lorem ipsum ..." 
+        },
+        {
+            "id" : 3,
+            "icon" :"",
+            "title":"",
+            "body":" lorem ipsum ..." 
+        },
+
+    ],
+
+    "profile":[
+        {
+        "id":1,
+        "title":"bootstrap",
+        "porcentage":"90"
+        },
+        {
+        "id":1,
+        "title":"css",
+        "porcentage":"80"
+        },
+        {
+        "id":1,
+        "title":"react",
+        "porcentage":"70"
+        },
+    ],
+    "MY profile":[
+        {   
+            "name":"",
+            "birthday":,
+            "Address" : "",
+            "phone" : 0773820633,
+            "email": "",
+            "website": "www.web.com"
+        }
+]
+
+}

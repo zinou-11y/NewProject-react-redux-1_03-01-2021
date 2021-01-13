@@ -1,0 +1,15 @@
+.title {
+
+    color: #fff;
+
+border: 0;
+text-decoration: none;
+cursor: pointer;
+font-size: 18px;
+
+}
+
+.title:hover {
+    
+    color: black;
+}
